@@ -113,8 +113,8 @@
       </p>
     </div>
     <div class="flex gap-5">
-      <a href="/impressum"> Impressum </a>
-      <a href="/datenschutz"> Datenschutz </a>
+      <a href="/somedis/impressum"> Impressum </a>
+      <a href="/somedis/datenschutz"> Datenschutz </a>
     </div>
   </footer>
 {/if}
@@ -155,7 +155,7 @@
       class="fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-bg z-20"
     >
       <img
-        src="/icons/spinner.svg"
+        src="/somedis/icons/spinner.svg"
         class="h-12 animate-spin"
         alt="loading..."
       />
@@ -192,7 +192,7 @@
           <ChevronRight className="h-5" />
         </button>
         <div class="flex flex-row gap-1 items-center font-medium text-sm">
-          <img src="/icons/date.svg" class="h-5" alt="time" />
+          <img src="/somedis/icons/date.svg" class="h-5" alt="time" />
           ~5min
         </div>
       </div>
