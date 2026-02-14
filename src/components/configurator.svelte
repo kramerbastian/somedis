@@ -126,7 +126,7 @@
       class="bg-black/5 hover:bg-black/10 font-semibold text-lg py-3 pr-8 pl-6 rounded-2xl flex flex-row items-center gap-2 cursor-pointer"
       onclick={prev}
     >
-      <img src="/icons/chevron-right.svg" class="h-5 rotate-180" alt="left" />
+      <ChevronRight className="h-5 rotate-180" />
       Zurück
     </button>
     <div class="relative">
