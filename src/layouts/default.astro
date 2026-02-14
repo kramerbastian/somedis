@@ -1,0 +1,39 @@
+---
+import '../styles/global.css';
+import { ClientRouter } from 'astro:transitions';
+
+type Props = {
+  title: string;
+  lang: string;
+};
+
+const { title, lang } = Astro.props as Props;
+---
+
+<html lang={lang} class="bg-[#F9EBE0]">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon-light.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      href="/favicon-light.svg"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="icon"
+      href="/favicon-dark.svg"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <ClientRouter />
+  </head>
+  <body
+    class="bg-bg px-8 py-8 transition-colors duration-1000 sm:px-16 sm:py-16 md:px-32"
+  >
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,322 @@
+{
+  "lang": "en",
+  "start_project": "Start project",
+  "web_development": "Web development",
+  "ui_design": "UI design",
+  "intro": "I’m from Weimar, Germany, and have been developing everything from React and Node to the latest technologies for 4 years, creating websites that are not only visually appealing but fun to use.",
+  "welcome": "Hey!<br/>I'm <span class=\"font-bold\">Basti</span>",
+  "technologies": "Technologies",
+  "projects": "Projects",
+  "contact": "Contact",
+  "servicesHeading": "Services",
+  "services": [
+    "Web development & programming",
+    "Design & UX",
+    "Performance & SEO",
+    "Hosting & CMS",
+    "E-Commerce and shops",
+    "API integrations"
+  ],
+  "price": "From <b class=\"font-bold\">400€</b>",
+  "website": "Website",
+  "hardware": "Hardware",
+  "imprint": "Imprint",
+  "privacy": "Privacy",
+  "request_a_quote": "Request a quote",
+  "sendMessage": "Send a message",
+  "phone": "+49 1512 6996480",
+  "mail": "mail@bastik.dev",
+  "location": "Weimar, Germany",
+  "personResponsible": "Person responsible for content according to § 55 Abs. 2 RStV:",
+  "emailHeading": "E-mail",
+  "phoneHeading": "Phone",
+  "visit": "Visit",
+  "next": "Next",
+  "back": "Back",
+  "summarize": "Quickly summarize your project:",
+  "companyName": "Company",
+  "companyNamePlaceholder": "Your company name",
+  "name": "Name",
+  "namePlaceholder": "Your name",
+  "projectDescriptionPlaceholder": "Briefly describe your project: idea and goal, main functions or features, desired design/layout, and special requirements or wishes.",
+  "estimatedPrice": "Estimated Price",
+  "email": "Email",
+  "emailPlaceholder": "Where should the offer be sent?",
+  "checkInputs": "Please check your entries.",
+  "home": "Home",
+  "indexTitle": "Web development | Bastian Kramer",
+  "configuratorTitle": "Start Project | Bastian Kramer",
+  "cookieBannerTitle": "A legally required cookie banner",
+  "cookieBannerText": "<b>bastik.dev</b> uses <b>no</b> third-party cookies, only a single, in-house cookie.",
+  "metaDescription": "I create websites that are not only visually appealing but also fun and enjoyable to use – for both users and businesses alike.",
+  "configurator": {
+    "intro": {
+      "short_heading": "Intro",
+      "heading": "Introduction",
+      "description": "Build your web project step by step and get an instant preliminary price estimate. Afterwards, send me an individual and non-binding offer."
+    },
+    "projectType": {
+      "short_heading": "Type",
+      "heading": "Project Type",
+      "description": "What do you want to create? Choose the project type that best fits your idea.",
+      "items": [
+        {
+          "name": "Website",
+          "id": "website",
+          "description": "Modern online presence",
+          "next": "websiteType"
+        },
+        {
+          "name": "UI/UX Design",
+          "id": "design",
+          "description": "Sell products online",
+          "next": "designType"
+        },
+        {
+          "name": "Other",
+          "id": "other"
+        }
+      ]
+    },
+    "websiteType": {
+      "short_heading": "Type",
+      "heading": "Website Type",
+      "description": "The effort varies depending on the type of website. Choose the type that best suits your project.",
+      "items": [
+        {
+          "id": "business",
+          "name": "Business Website",
+          "description": "For companies and organizations.",
+          "priceMod": "+600"
+        },
+        {
+          "id": "personal",
+          "name": "Personal Website",
+          "description": "Ideal for freelancers",
+          "priceMod": "+400"
+        },
+        {
+          "id": "shop",
+          "name": "Online Shop",
+          "description": "Sell products online.",
+          "priceMod": "+950"
+        },
+        {
+          "id": "webapp",
+          "name": "Web App",
+          "description": "Interactive online application.",
+          "priceMod": "+1600"
+        }
+      ]
+    },
+    "designExisting": {
+      "short_heading": "Design",
+      "heading": "Design",
+      "description": "Is a design already available? If you already have a design, development can proceed faster.",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Yes, design is available",
+          "description": "(e.g., Figma, PDF, or XD file)",
+          "next": "websiteFeatures"
+        },
+        {
+          "id": "no",
+          "name": "No, design should be created",
+          "priceMod": "*1.5",
+          "next": "websiteBrandingExisting"
+        }
+      ]
+    },
+    "websiteBrandingExisting": {
+      "short_heading": "Branding",
+      "heading": "Branding and Logo",
+      "description": "Is branding or a logo already available? Existing branding serves as the basis for your website's appearance.",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Yes, branding is available",
+          "next": "websiteFeatures"
+        },
+        {
+          "id": "no",
+          "name": "No, branding should be created",
+          "priceMod": "+220",
+          "next": "websiteFeatures"
+        }
+      ]
+    },
+    "websiteFeatures": {
+      "short_heading": "Features",
+      "heading": "Features",
+      "description": "Which features should your website include? Select everything important to you.",
+      "items": [
+        {
+          "id": "cms",
+          "name": "Content Management System (CMS)",
+          "description": "Edit content yourself.",
+          "priceMod": "+180",
+          "next": "websiteScope"
+        },
+        {
+          "id": "api",
+          "name": "API Integration",
+          "description": "Integration of external systems.",
+          "priceMod": "+140",
+          "next": "websiteScope"
+        },
+        {
+          "id": "booking",
+          "name": "Online Booking",
+          "priceMod": "+80",
+          "next": "websiteScope"
+        },
+        {
+          "id": "i18n",
+          "name": "Multilingual",
+          "priceMod": "+120",
+          "next": "websiteScope"
+        },
+        {
+          "id": "custom",
+          "name": "Other / Custom Feature",
+          "next": "websiteScope"
+        }
+      ]
+    },
+    "websiteScope": {
+      "short_heading": "Pages",
+      "heading": "Project Scope",
+      "description": "How big should your project be? Choose a rough estimate.",
+      "items": [
+        {
+          "id": "onepager",
+          "name": "1 Page",
+          "description": "Landing page or one-pager"
+        },
+        {
+          "id": "small",
+          "name": "2-4 Pages",
+          "description": "e.g., Home, Services, About Me, Contact",
+          "priceMod": "+160"
+        },
+        {
+          "id": "medium",
+          "name": "5-10 Pages",
+          "description": "e.g., company website, portfolio, blog",
+          "priceMod": "+440"
+        },
+        {
+          "id": "large",
+          "name": "10+ Pages",
+          "priceMod": "+600"
+        }
+      ]
+    },
+    "hosting": {
+      "short_heading": "Hosting",
+      "heading": "Hosting",
+      "description": "How do you want to run the website?",
+      "items": [
+        {
+          "id": "yes",
+          "name": "I want you to handle hosting & setup.",
+          "next": "summary"
+        },
+        {
+          "id": "no",
+          "name": "I will manage hosting & domain myself.",
+          "next": "summary"
+        }
+      ]
+    },
+    "designType": {
+      "short_heading": "Type",
+      "heading": "Design Type",
+      "description": "What type of design do you need? Choose the appropriate design service for your project.",
+      "items": [
+        {
+          "id": "layout",
+          "name": "Web Design (UI/UX)",
+          "description": "Design of websites or web apps.",
+          "priceMod": "+300",
+          "next": "brandingExisting"
+        },
+        {
+          "id": "branding",
+          "name": "Branding",
+          "description": "Appearance with logo, colors, typography.",
+          "priceMod": "+250",
+          "next": "description"
+        }
+      ]
+    },
+    "brandingExisting": {
+      "short_heading": "Branding",
+      "heading": "Branding and Logo",
+      "description": "Is branding or a logo already available? Existing branding serves as the basis for the appearance of your website.",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Yes, branding is available",
+          "next": "designScope"
+        },
+        {
+          "id": "no",
+          "name": "No, branding should be created",
+          "priceMod": "+220",
+          "next": "designScope"
+        }
+      ]
+    },
+    "designScope": {
+      "short_heading": "Scope",
+      "heading": "Scope",
+      "description": "How big should your project be? Choose a rough estimate.",
+      "items": [
+        {
+          "id": "onepager",
+          "name": "1 Page",
+          "description": "Landing page or one-pager"
+        },
+        {
+          "id": "small",
+          "name": "2-4 Pages",
+          "description": "e.g., Home, Services, About Me, Contact",
+          "priceMod": "+45"
+        },
+        {
+          "id": "medium",
+          "name": "5-10 Pages",
+          "description": "e.g., company website, portfolio, blog",
+          "priceMod": "+125"
+        },
+        {
+          "id": "large",
+          "name": "10+ Pages",
+          "priceMod": "+195"
+        }
+      ]
+    },
+    "description": {
+      "short_heading": "Description",
+      "heading": "Project Description",
+      "description": "Describe what you are planning and the goal of your website."
+    },
+    "summary": {
+      "short_heading": "Summary",
+      "heading": "Summary",
+      "description": "Based on your entries, your project is likely within this price range. Individual services are not included in this estimate – the final offer will be tailored to your requirements."
+    },
+    "contact": {
+      "short_heading": "Contact",
+      "heading": "Contact",
+      "description": "If you like the estimate, just send me your details – I will get in touch personally."
+    },
+    "outro": {
+      "short_heading": "Thank You!",
+      "heading": "Thank you for your inquiry!",
+      "description": "I have received your information and will contact you personally in a few days. I look forward to working on your project with you!"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+---
+import Layout from './default.astro';
+import Header from '../components/header.astro';
+import type { Translations } from '../locales/translations';
+import { getLocalizedLink } from '../utils/i18n';
+
+type Props = {
+  title: string;
+  lang: string;
+  footerFixed: boolean;
+};
+
+const { title, lang, footerFixed = false } = Astro.props as Props;
+---
+
+<Layout title={title} lang={lang}>
+  <main class="prose prose-neutral prose-lg mt-12 text-black marker:text-black">
+    <slot />
+  </main>
+
+  <footer
+    class={`${footerFixed ? 'absolute bottom-0 left-0 px-8 py-8 sm:px-16 md:px-32' : 'mt-12'} flex flex-row items-end justify-start gap-5 text-xs font-medium`}
+  >
+    <div class="flex gap-5">
+      <a href="/impressum">Impressum </a>
+      <a href="/datenschutz">Datenschutz </a>
+    </div>
+  </footer>
+</Layout>

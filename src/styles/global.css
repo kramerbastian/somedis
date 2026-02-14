@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --color-blueish: #81c1b1;
+  --color-whiteish: #ffe3e3;
+  --color-bg: var(--bg-color);
+  --breakpoint-xs: 480px;
+  --font-sans:
+    'Open Runde', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  --shadow-box: 4px 4px #00000020;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/OpenRunde-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/OpenRunde-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/OpenRunde-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/OpenRunde-Semibold.woff2') format('woff2');
+}

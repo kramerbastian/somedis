@@ -1,0 +1,25 @@
+<script lang="ts">
+  type Props = {
+    trigger: string;
+    className: string;
+    id: string;
+  };
+
+  const { id } = $props() as Props;
+  let open = $state(true);
+
+  function close() {
+    open = false;
+  }
+</script>
+
+{#if open}
+  <button
+    class="h-screen w-screen top-0 left-0 fixed"
+    aria-label="Close"
+    onclick={close}
+  ></button>
+  <div class="fixed top-1/2 left-1/2 -translate-1/2 bg-white p-12" {id}>
+    Popup
+  </div>
+{/if}

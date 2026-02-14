@@ -1,0 +1,322 @@
+{
+  "lang": "de",
+  "start_project": "Projekt starten",
+  "web_development": "Webentwicklung",
+  "ui_design": "UI Design",
+  "intro": "Ich komme aus Weimar und entwickle seit 4 Jahren in allem, von React über Astro bis zu den neuesten Technologien. Dabei gestalte ich Webseiten, die nicht nur gut aussehen, sondern auch Spaß machen.",
+  "welcome": "Hey!<br/>Ich bin <span class=\"font-bold\">Basti</span>",
+  "technologies": "Technologien",
+  "projects": "Projekte",
+  "contact": "Kontakt",
+  "servicesHeading": "Leistungen",
+  "services": [
+    "Webentwicklung & Programmierung",
+    "Design & UX",
+    "Performance & SEO",
+    "Hosting & CMS",
+    "E-Commerce & Shops",
+    "API & Integrationen"
+  ],
+  "price": "Ab <b class=\"font-bold\">400€</b>",
+  "website": "Webseite",
+  "hardware": "Hardware",
+  "imprint": "Impressum",
+  "privacy": "Datenschutz",
+  "request_a_quote": "Angebot anfordern",
+  "sendMessage": "Nachricht senden",
+  "phone": "+49 1512 6996480",
+  "mail": "mail@bastik.dev",
+  "location": "Weimar",
+  "personResponsible": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:",
+  "emailHeading": "E-mail",
+  "phoneHeading": "Telefon",
+  "visit": "Besuchen",
+  "next": "Weiter",
+  "back": "Zurück",
+  "summarize": "Fasse dein Projekt noch schnell zusammen:",
+  "companyName": "Unternehmen",
+  "companyNamePlaceholder": "Name deiner Firma",
+  "name": "Name",
+  "namePlaceholder": "Dein Name",
+  "projectDescriptionPlaceholder": "Beschreiben Sie Ihr Projekt kurz: Idee und Ziel, wichtigste Funktionen oder Features, gewünschtes Design/Layout und besondere Anforderungen oder Wünsche.",
+  "estimatedPrice": "Geschätzter Preis",
+  "email": "E-mail",
+  "emailPlaceholder": "Wohin soll das Angebot geschickt werden?",
+  "checkInputs": "Bitte überprüfe deine Eingaben.",
+  "home": "Home",
+  "indexTitle": "Webentwicklung Weimar | Bastian Kramer",
+  "configuratorTitle": "Projekt starten | Bastian Kramer",
+  "cookieBannerTitle": "Ein rechtlich vorgeschriebener Cookie-Banner",
+  "cookieBannerText": "<b>bastik.dev</b> verwendet <b>keine</b> Drittanbieter-Cookies, sondern nur einen einzigen, hauseigenen Cookie.",
+  "metaDescription": "Ich entwickle Websites, die nicht nur schön aussehen, sondern auch Freude beim Benutzen bringen – für Nutzer und Unternehmen gleichermaßen.",
+  "configurator": {
+    "intro": {
+      "short_heading": "Intro",
+      "heading": "Einleitung",
+      "description": "Stelle dein Webprojekt Schritt für Schritt zusammen und erhalte sofort eine erste Preisschätzung. Anschließend sende ich dir ein individuelles und unverbindliches Angebot."
+    },
+    "projectType": {
+      "short_heading": "Typ",
+      "heading": "Projekttyp",
+      "description": "Was möchtest du umsetzen? Wähle den Projekttyp, der am besten zu deiner Idee passt.",
+      "items": [
+        {
+          "name": "Website",
+          "id": "website",
+          "description": "Moderne Online-Präsenz",
+          "next": "websiteType"
+        },
+        {
+          "name": "UI/UX-Design",
+          "id": "design",
+          "description": "Produkte online verkaufen",
+          "next": "designType"
+        },
+        {
+          "name": "Anderes",
+          "id": "other"
+        }
+      ]
+    },
+    "websiteType": {
+      "short_heading": "Typ",
+      "heading": "Website-Typ",
+      "description": "Je nach Art der Website variiert der Aufwand. Wähle den Typ, der am besten zu deinem Projekt passt.",
+      "items": [
+        {
+          "id": "business",
+          "name": "Unternehmenswebsite",
+          "description": "Für Firmen und Betriebe.",
+          "priceMod": "+600"
+        },
+        {
+          "id": "personal",
+          "name": "Persönliche Website",
+          "description": "Ideal für Selbstständige",
+          "priceMod": "+400"
+        },
+        {
+          "id": "shop",
+          "name": "Onlineshop",
+          "description": "Produkte online verkaufen.",
+          "priceMod": "+950"
+        },
+        {
+          "id": "webapp",
+          "name": "Web App",
+          "description": "Interaktive Anwendung online.",
+          "priceMod": "+1600"
+        }
+      ]
+    },
+    "designExisting": {
+      "short_heading": "Design",
+      "heading": "Design",
+      "description": "Gibt es bereits ein Design? Wenn du schon ein Design hast, kann die Entwicklung schneller erfolgen.",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Ja, Design ist vorhanden",
+          "description": "(z. B. als Figma, PDF oder XD-Datei)",
+          "next": "websiteFeatures"
+        },
+        {
+          "id": "no",
+          "name": "Nein, Design soll erstellt werden",
+          "priceMod": "*1.5",
+          "next": "websiteBrandingExisting"
+        }
+      ]
+    },
+    "websiteBrandingExisting": {
+      "short_heading": "Branding",
+      "heading": "Branding und Logo",
+      "description": "Gibt es bereits ein Branding oder Logo? Ein vorhandenes Branding dient als Grundlage für das Erscheinungsbild deiner Website.",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Ja, Branding ist vorhanden",
+          "next": "websiteFeatures"
+        },
+        {
+          "id": "no",
+          "name": "Nein, Branding soll neu entwickelt werden",
+          "priceMod": "+220",
+          "next": "websiteFeatures"
+        }
+      ]
+    },
+    "websiteFeatures": {
+      "short_heading": "Funktionen",
+      "heading": "Funktionen",
+      "description": "Welche Funktionen soll deine Website enthalten? Wähle alles aus, was dir wichtig ist.",
+      "items": [
+        {
+          "id": "cms",
+          "name": "Content-Management-System (CMS)",
+          "description": "Inhalte selbst bearbeiten.",
+          "priceMod": "+180",
+          "next": "websiteScope"
+        },
+        {
+          "id": "api",
+          "name": "API-Anbindung",
+          "description": "Integration externer Systeme.",
+          "priceMod": "+140",
+          "next": "websiteScope"
+        },
+        {
+          "id": "booking",
+          "name": "Online-Terminbuchung",
+          "priceMod": "+80",
+          "next": "websiteScope"
+        },
+        {
+          "id": "i18n",
+          "name": "Mehrsprachigkeit",
+          "priceMod": "+120",
+          "next": "websiteScope"
+        },
+        {
+          "id": "custom",
+          "name": "Anderes / Individuelles Feature",
+          "next": "websiteScope"
+        }
+      ]
+    },
+    "websiteScope": {
+      "short_heading": "Seitenumfang",
+      "heading": "Seitenumfang",
+      "description": "Wie groß soll dein Projekt werden? Wähle eine grobe Einschätzung.",
+      "items": [
+        {
+          "id": "onepager",
+          "name": "1 Seite",
+          "description": "Landingpage oder Onepager"
+        },
+        {
+          "id": "small",
+          "name": "2-4 Seiten",
+          "description": "z. B. Start, Leistungen, Über mich, Kontakt",
+          "priceMod": "+160"
+        },
+        {
+          "id": "medium",
+          "name": "5-10 Seiten",
+          "description": "z. B. Unternehmensseite, Portfolio, Blog",
+          "priceMod": "+440"
+        },
+        {
+          "id": "large",
+          "name": "10+ Seiten",
+          "priceMod": "+600"
+        }
+      ]
+    },
+    "hosting": {
+      "short_heading": "Hosting",
+      "heading": "Hosting",
+      "description": "Wie möchtest du die Seite betreiben?",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Ich möchte, dass du Hosting & Setup übernimmst.",
+          "next": "summary"
+        },
+        {
+          "id": "no",
+          "name": "Ich kümmere mich selbst um Hosting & Domain.",
+          "next": "summary"
+        }
+      ]
+    },
+    "designType": {
+      "short_heading": "Typ",
+      "heading": "Design-Typ",
+      "description": "Welche Art von Design benötigst du? Wähle die passende Designleistung für dein Projekt.",
+      "items": [
+        {
+          "id": "layout",
+          "name": "Webdesign (UI/UX)",
+          "description": "Gestaltung von Websites oder Web-Apps.",
+          "priceMod": "+300",
+          "next": "brandingExisting"
+        },
+        {
+          "id": "branding",
+          "name": "Branding",
+          "description": "Erscheinungsbild mit Logo, Farben, Typografie.",
+          "priceMod": "+250",
+          "next": "description"
+        }
+      ]
+    },
+    "brandingExisting": {
+      "short_heading": "Branding",
+      "heading": "Branding und Logo",
+      "description": "Gibt es bereits ein Branding oder Logo? Ein vorhandenes Branding dient als Grundlage für das Erscheinungsbild deiner Website.",
+      "items": [
+        {
+          "id": "yes",
+          "name": "Ja, Branding ist vorhanden",
+          "next": "designScope"
+        },
+        {
+          "id": "no",
+          "name": "Nein, Branding soll neu entwickelt werden",
+          "priceMod": "+220",
+          "next": "designScope"
+        }
+      ]
+    },
+    "designScope": {
+      "short_heading": "Umfang",
+      "heading": "Umfang",
+      "description": "Wie groß soll dein Projekt werden? Wähle eine grobe Einschätzung.",
+      "items": [
+        {
+          "id": "onepager",
+          "name": "1 Seite",
+          "description": "Landingpage oder Onepager"
+        },
+        {
+          "id": "small",
+          "name": "2-4 Seiten",
+          "description": "z. B. Start, Leistungen, Über mich, Kontakt",
+          "priceMod": "+45"
+        },
+        {
+          "id": "medium",
+          "name": "5-10 Seiten",
+          "description": "z. B. Unternehmensseite, Portfolio, Blog",
+          "priceMod": "+125"
+        },
+        {
+          "id": "large",
+          "name": "10+ Seiten",
+          "priceMod": "+195"
+        }
+      ]
+    },
+    "description": {
+      "short_heading": "Beschreibung",
+      "heading": "Projektbeschreibung",
+      "description": "Beschreibe, was du vorhast und welches Ziel deine Website verfolgen soll."
+    },
+    "summary": {
+      "short_heading": "Zusammenfassung",
+      "heading": "Zusammenfassung",
+      "description": "Basierend auf deinen Angaben liegt dein Projekt voraussichtlich in diesem Preisrahmen. Individuelle Leistungen sind in dieser Einschätzung nicht enthalten – das finale Angebot wird individuell auf deine Anforderungen zugeschnitten."
+    },
+    "contact": {
+      "short_heading": "Kontakt",
+      "heading": "Kontakt",
+      "description": "Wenn dir die Preisschätzung zusagt, schick mir einfach deine Angaben – ich melde mich persönlich bei dir."
+    },
+    "outro": {
+      "short_heading": "Danke!",
+      "heading": "Vielen Dank für deine Anfrage!",
+      "description": "Ich habe deine Angaben erhalten und melde mich in wenigen Tagen persönlich bei dir. Ich freue mich darauf, dein Projekt gemeinsam mit dir umzusetzen!"
+    }
+  }
+}
