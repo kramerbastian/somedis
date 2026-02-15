@@ -72,7 +72,7 @@
           step.id == 9
         ) {
           consequences += step.value;
-        } else if (step.id == 10 && step.value >= 3) {
+        } else if (step.id == 10 && step.value >= 2) {
           timeCriterion = true;
         }
       }
