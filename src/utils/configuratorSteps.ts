@@ -126,7 +126,7 @@ export function getConfiguratorSteps() {
       id: 7,
       type: 'radio',
       heading: 'Selbstfürsorge',
-      description: 'Durch die Beschäftigung mit sozialen Medien vernachlässige ich mein Aussehen, meine Körperpflege und/oder meine Gesundheit. Z.B. schlafe ich durch die Nutzung sozialer Medien weniger, ernähre mich ungesund und bewege mich kaum.',
+      description: 'Durch die Beschäftigung mit sozialen Medien vernachlässige ich mein Aussehen, meine Körperpflege und/oder meine Gesundheit. Z. B. schlafe ich durch die Nutzung sozialer Medien weniger, ernähre mich ungesund und bewege mich kaum.',
       next: 8,
       items: basicReply
     },
