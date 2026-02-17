@@ -78,7 +78,7 @@ export function getConfiguratorSteps() {
       id: 1,
       type: 'radio',
       heading: 'Häufigkeit',
-      description: 'Ich bin in sozialen Medien häufig öfter und länger, als ich mir vornehme, oder es z.B. mit meinen Eltern abgesprochen war.',
+      description: 'Ich bin in sozialen Medien häufig öfter und länger, als ich mir vornehme, oder es z. B. mit meinen Eltern abgesprochen war.',
       next: 2,
       items: basicReply
     },
@@ -86,7 +86,7 @@ export function getConfiguratorSteps() {
       id: 2,
       type: 'radio',
       heading: 'Selbstregulation',
-      description: 'Ich kann oft nicht aufhören, mich mit sozialen Medien zu beschäftigen, obwohl ich vernünftigerweise besser aufhören sollte oder z.B. meine Eltern mir gesagt haben, dass ich aufhören soll.',
+      description: 'Ich kann oft nicht aufhören, mich mit sozialen Medien zu beschäftigen, obwohl ich vernünftigerweise besser aufhören sollte oder z. B. meine Eltern mir gesagt haben, dass ich aufhören soll.',
       next: 3,
       items: basicReply
     },
@@ -110,7 +110,7 @@ export function getConfiguratorSteps() {
       id: 5,
       type: 'radio',
       heading: 'Konfliktpotenzial',
-      description: 'Ich beschäftige mich weiter mit sozialen Medien, selbst wenn ich dadurch Stress mit anderen bekomme. Gemeint ist Stress z.B. mit Eltern, Geschwistern, fester Freund/ feste Freundin, mit Freunden/Freundinnen, Lehrerinnen/Lehrern oder Vorgesetzten durch die Nutzung sozialer Medien',
+      description: 'Ich beschäftige mich weiter mit sozialen Medien, selbst wenn ich dadurch Stress mit anderen bekomme. Gemeint ist Stress z. B. mit Eltern, Geschwistern, fester Freund/ feste Freundin, mit Freunden/Freundinnen, Lehrerinnen/Lehrern oder Vorgesetzten durch die Nutzung sozialer Medien',
       next: 6,
       items: basicReply
     },
@@ -126,7 +126,7 @@ export function getConfiguratorSteps() {
       id: 7,
       type: 'radio',
       heading: 'Selbstfürsorge',
-      description: 'Durch die Beschäftigung mit sozialen Medien vernachlässige ich mein Aussehen, meineKörperpflege und/oder meine Gesundheit. Z.B. schlafe ich durch die Nutzung sozialer Medien weniger, ernähre mich ungesund und bewege mich kaum.',
+      description: 'Durch die Beschäftigung mit sozialen Medien vernachlässige ich mein Aussehen, meine Körperpflege und/oder meine Gesundheit. Z.B. schlafe ich durch die Nutzung sozialer Medien weniger, ernähre mich ungesund und bewege mich kaum.',
       next: 8,
       items: basicReply
     },
